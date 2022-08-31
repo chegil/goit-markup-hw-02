@@ -1,0 +1,187 @@
+/* основний колір color: #212121; */
+
+/* синій колір #2196F3 */
+
+/* для контактів #757575 */ 
+
+/* для лого 2 #000000*/ 
+
+/* для фону кнопки #F5F4FA */
+
+/* для білого тексту #FFFFFF; */
+
+
+ 
+
+
+.root { 
+    --basic-colour: #212121;
+    --minor-colour: #2196F3;
+    --contacts-coluor:#757575;
+    --logo-colour: #000000; 
+    --button-colour:  #F5F4FA;
+    --text-wite: #FFFFFF; 
+    
+}
+
+.body { background-color: #F5F5F5;
+ color:var(--basic-colour);
+ font-family: 'Roboto' , monospace}
+  
+ /* загального використання */
+ .h2 {display: none;}
+ .list {list-style: none;}
+
+/* шапка */
+
+.logo {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px; }
+.logo .stud {color: #000000;}
+
+.siste-nav .link {font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+color: var(--basic-colour);}
+.siste-nav .link:hover { color: #2196F3;}
+.siste-nav .link:focus {  color: #2196F3}
+
+
+ /* контакти */
+
+.info .contackts {font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;}
+
+.info .contackts:hover {color: #2196F3;}
+
+
+
+/* верхня частина*/
+
+
+.about > button  {background-color:#2196F3;;
+color: #FFFFFF;}
+
+
+
+/* -- про нас -- */
+
+.about-us .about-us-titel {font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;}
+
+    .about-us .about-us-text {font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;}
+
+
+/* -- чим ми займаємось-- */
+
+.our-work .our-work-titel {font-style: normal;
+
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;}
+
+
+/* -- наша команда -- */
+
+.team .team-titel {font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+   letter-spacing: 0.03em;
+    color: #212121;}
+
+    .team .team-men { font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #212121;}
+
+        .team .team-text {font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.03em;
+            color: #757575;}
+
+/* 2 верхня частина для порфоліо навігація*/
+
+.about-porfolio .ebount-btn {background: #F5F4FA;
+color: #212121;}
+
+.about-porfolio .ebount-btn:hover {background-color: #2196F3}
+
+.ebout-li { font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #212121;}
+    
+
+ /* 2 середина фото і опис робіт*/
+
+ .hero-titel {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121 }
+
+.hero-text {font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;}
+
+
+/* підвал */
+.footer {background-color: #2F303A;;}
+
+.footer .lower-logo {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;}
+
+  .footer  .lower-llogo {color: #FFFFFF;}
+
+  .footer .lower-contackt { font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);}
+
+    .footer .footer-adress {font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+         color: #FFFFFF;}
+
