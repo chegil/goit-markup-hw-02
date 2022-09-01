@@ -36,7 +36,6 @@
 /* шапка */
 
 .logo {font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.20; }
@@ -69,7 +68,7 @@ color: var(--basic-colour);}
 
 
 .about > button  {background-color:var(--minor-colour);
-color: #FFFFFF;}
+color: var(--text-wite)}
 
 
 
@@ -115,19 +114,19 @@ color: #FFFFFF;}
         font-size: 16px;
         line-height: 1.20;
         letter-spacing: 0.03em;
-        color: #212121;}
+        color:var(--basic-colour);}
 
         .team .team-text {
             font-weight: 400;
             font-size: 16px;
             line-height: 1.20;
             letter-spacing: 0.03em;
-            color:var(--contacts-coluor)}
+            color:var(--contacts-coluor);}
 
 /* 2 верхня частина для порфоліо навігація*/
 
 .about-porfolio .ebount-btn {background: #F5F4FA;
-color:var(--basic-colour)}
+color:var(--basic-colour);}
 
 .about-porfolio .ebount-btn:hover {background-color: var(--minor-colour);}
 
@@ -136,7 +135,7 @@ color:var(--basic-colour)}
     font-size: 16px;
     line-height: 1.60;
     letter-spacing: 0.03em;
-    color:var(--basic-colour)}
+    color:var(--basic-colour);}
     
 
 
@@ -147,14 +146,14 @@ color:var(--basic-colour)}
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
-    color:var(--basic-colour) }
+    color:var(--basic-colour); }
 
 .hero-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.80;
     letter-spacing: 0.03em;
-    color: var(--contacts-coluor)}
+    color: var(--contacts-coluor);}
 
 
 /* підвал */
@@ -167,19 +166,19 @@ color:var(--basic-colour)}
     letter-spacing: 0.03em;
     color: var(--minor-colour);}
 
-  .footer  .lower-llogo {color: #FFFFFF;}
+  .footer  .lower-llogo {color:var(--text-wite);}
 
   .footer .lower-contackt {
     font-weight: 400;
     font-size: 14px;
     line-height: 2.00;
     letter-spacing: 0.03em;
-    color:var(--footer-colour)}
+    color:var(--footer-colour);}
 
     .footer .footer-adress {
         font-weight: 400;
         font-size: 14px;
         line-height: 2.00;
         letter-spacing: 0.03em;
-         color:var(--text-wite)}
+         color:var(--text-wite);}
 
