@@ -28,7 +28,7 @@
 .body { background-color:var(--fon-colour);
  color:var(--basic-colour);
  font-family: 'Roboto' , monospace}
-.body p { font-style: normal;}
+.body  { font-style: normal;}
  /* загального використання */
  .h2 {display: none;}
  .list {list-style: none;}
@@ -39,10 +39,10 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px; }
+    line-height: 1.20; }
 .logo .stud {color: var(--logo-colour);}
-
-.siste-nav .link {font-style: normal;
+ 
+.siste-nav .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -57,7 +57,7 @@ color: var(--basic-colour);}
 .info .contackts {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 2.00;
     letter-spacing: 0.03em;
     color: var(--contacts-coluor);}
 
@@ -75,54 +75,52 @@ color: #FFFFFF;}
 
 /* -- про нас -- */
 
-.about-us .about-us-titel {font-style: normal;
+.about-us .about-us-titel {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.20;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--basic-colour);}
 
-    .about-us .about-us-text {font-style: normal;
+    .about-us .about-us-text {
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 2.00;
         letter-spacing: 0.03em;
         color: var(--contacts-coluor);}
 
 
 /* -- чим ми займаємось-- */
 
-.our-work .our-work-titel {font-style: normal;
-
-
+.our-work .our-work-titel {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.20;
     letter-spacing: 0.03em;
     color: var(--basic-colour);}
 
 
 /* -- наша команда -- */
 
-.team .team-titel {font-style: normal;
+.team .team-titel {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
    letter-spacing: 0.03em;
     color:var(--basic-colour);}
 
-    .team .team-men { font-style: normal;
+    .team .team-men {
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.20;
         letter-spacing: 0.03em;
         color: #212121;}
 
         .team .team-text {
             font-weight: 400;
             font-size: 16px;
-            line-height: 19px;
+            line-height: 1.20;
             letter-spacing: 0.03em;
             color:var(--contacts-coluor)}
 
@@ -133,10 +131,10 @@ color:var(--basic-colour)}
 
 .about-porfolio .ebount-btn:hover {background-color: var(--minor-colour);}
 
-.ebout-li { font-style: normal;
+.ebout-li {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.60;
     letter-spacing: 0.03em;
     color:var(--basic-colour)}
     
@@ -145,17 +143,16 @@ color:var(--basic-colour)}
  /* 2 середина фото і опис робіт*/
 
  .hero-titel {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2.00;
     letter-spacing: 0.06em;
     color:var(--basic-colour) }
 
 .hero-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.80;
     letter-spacing: 0.03em;
     color: var(--contacts-coluor)}
 
@@ -164,26 +161,25 @@ color:var(--basic-colour)}
 .footer {background-color: #2F303A;;}
 
 .footer .lower-logo {font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.20;
     letter-spacing: 0.03em;
     color: var(--minor-colour);}
 
   .footer  .lower-llogo {color: #FFFFFF;}
 
-  .footer .lower-contackt { font-style: normal;
+  .footer .lower-contackt {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 2.00;
     letter-spacing: 0.03em;
     color:var(--footer-colour)}
 
     .footer .footer-adress {
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 2.00;
         letter-spacing: 0.03em;
          color:var(--text-wite)}
 
