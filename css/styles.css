@@ -15,19 +15,19 @@
 
 
 .root { 
-    --basic-colour: #212121;
-    --minor-colour: #2196F3;
+    --basic-colour:#212121;
+    --minor-colour:#2196F3;
     --contacts-coluor:#757575;
-    --logo-colour: #000000; 
-    --button-colour:  #F5F4FA;
-    --text-wite: #FFFFFF; 
+    --logo-colour:#000000; 
+    --button-colour:#F5F4FA;
+    --text-wite:#FFFFFF; 
     
 }
 
 .body { background-color: #F5F5F5;
  color:var(--basic-colour);
  font-family: 'Roboto' , monospace}
-  
+.body p { font-style: normal;}
  /* загального використання */
  .h2 {display: none;}
  .list {list-style: none;}
@@ -39,7 +39,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 31px; }
-.logo .stud {color: #000000;}
+.logo .stud {color:#000000}
 
 .siste-nav .link {font-style: normal;
     font-weight: 500;
@@ -53,7 +53,7 @@ color: var(--basic-colour);}
 
  /* контакти */
 
-.info .contackts {font-style: normal;
+.info .contackts {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -118,7 +118,7 @@ color: #FFFFFF;}
         letter-spacing: 0.03em;
         color: #212121;}
 
-        .team .team-text {font-style: normal;
+        .team .team-text {
             font-weight: 400;
             font-size: 16px;
             line-height: 19px;
@@ -140,6 +140,7 @@ color: #212121;}
     color: #212121;}
     
 
+
  /* 2 середина фото і опис робіт*/
 
  .hero-titel {
@@ -150,7 +151,7 @@ color: #212121;}
     letter-spacing: 0.06em;
     color: #212121 }
 
-.hero-text {font-style: normal;
+.hero-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -178,7 +179,7 @@ color: #212121;}
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);}
 
-    .footer .footer-adress {font-style: normal;
+    .footer .footer-adress {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
