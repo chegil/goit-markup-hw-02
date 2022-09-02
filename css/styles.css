@@ -24,15 +24,27 @@
     --fon-colour: #F5F5F5;
     --footer-colour:rgba(255, 255, 255, 0.6);
     --button-active: #188CE8;
-}
+    --sectiom-dark-:#2F303A;
+   }
 
-body { background-color:var(--fon-colour);
+body { 
  color:var(--basic-colour);
- font-family: 'Roboto' , sans-serif}
-body  { font-style: normal;}
+ font-family: 'Roboto' , sans-serif; 
+ font-style: normal;}
+ 
  /* загального використання */
- .h2 {display: none;}
- .list {list-style: none;}
+ .visually-hidden { position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;}
+ 
+        .list {list-style: none;}
 
 /* шапка */
 
@@ -57,7 +69,7 @@ color: var(--basic-colour);}
  /* контакти */
 
 .info .contackts {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 2.0;
     letter-spacing: 0.03em;
@@ -70,24 +82,37 @@ color: var(--basic-colour);}
 .headerr .contackts {text-decoration: none}
 /* верхня частина*/
 
+.about {background-color:var(--sectiom-dark-);}
+
+.about .titel {font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-wite)}
 
 .about > button {
     background-color: var(--minor-colour);
     color: var(--text-wite);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;}
+    
 
 .about > button:hover {background-color: var(--button-active);}
 .about > button:focus {background-color: var(--button-active);}
-.about > button { cursor: pointer;}
 
+  .about > button {cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;}
 
-.about .about-titel {text-transform: uppercase}
+.
 
  
 
   /*-- про нас */
-.about-us .about-us-titel {
+  .about-us {background-color: var(--fon-colour);}
+  .about-us .titel {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -96,7 +121,7 @@ color: var(--basic-colour);}
     color: var(--basic-colour);
     text-transform: uppercase;}
 
-    .about-us .about-us-text {
+    .about-us .text {
         font-weight: 400;
         font-size: 14px;
         line-height: 2.0;
@@ -114,22 +139,25 @@ color: var(--basic-colour);}
 
 
 /* -- наша команда -- */
+ 
+.team {background-color: var(--button-colour);}
 
-.team .team-titel {
+.team .cart {background-color: var(--text-wite)}
+.team .titel {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
    letter-spacing: 0.03em;
     color:var(--basic-colour);}
 
-    .team .team-men {
+    .team .men {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.2;
         letter-spacing: 0.03em;
         color:var(--basic-colour);}
 
-        .team .team-text {
+        .team .text {
             font-weight: 400;
             font-size: 16px;
             line-height: 1.2;
@@ -138,7 +166,10 @@ color: var(--basic-colour);}
 
 /* 2 верхня частина для порфоліо навігація*/
 
-.about-porfolio .ebount-btn {background: #F5F4FA;
+
+
+
+.about-porfolio .btn {background: #F5F4FA;
     color:var(--basic-colour);
     font-family: 'Roboto';
     font-weight: 500;
@@ -148,8 +179,8 @@ color: var(--basic-colour);}
     cursor: pointer;}
 
 
-.about-porfolio .ebount-btn:hover {background-color: var(--minor-colour);}
-.about-porfolio .ebount-btn:hover {color: var(--text-wite);}
+.about-porfolio .btn:hover {background-color: var(--minor-colour);}
+.about-porfolio .btn:hover {color: var(--text-wite);}
 .ebout-li {
     font-weight: 500;
     font-size: 16px;
@@ -180,7 +211,7 @@ color: var(--basic-colour);}
 .footer {background-color: #2F303A;
  font-style: normal;}
 
-.footer .lower-logo {font-family: 'Raleway';
+.footer .logo {font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -188,9 +219,9 @@ color: var(--basic-colour);}
     color: var(--minor-colour);
 text-decoration: none;}
 
-.footer  .lower-llogo {color:var(--text-wite);}
+.footer  .llogo {color:var(--text-wite);}
 
-  .footer .lower-contackt {
+  .footer .contackt {
     font-weight: 400;
     font-size: 14px;
     line-height: 2.0;
@@ -198,17 +229,18 @@ text-decoration: none;}
     color:var(--footer-colour);
     text-decoration: none;}
 
-    .footer .lower-contackt:hover {color: var(--minor-colour);}
-    .footer .lower-contackt:focus {color: var(--minor-colour);}  
+    .footer .contackt:hover {color: var(--minor-colour);}
+    .footer .contackt:focus {color: var(--minor-colour);}  
     
-    .footer .footer-adress {
+    .footer .adress {
         font-weight: 400;
         font-size: 14px;
         line-height: 2.0;
         letter-spacing: 0.03em;
          color:var(--text-wite);
-        text-decoration: none;}
+        text-decoration: none;
+        font-style: normal;}
 
-     .footer .footer-adress:hover {color: var(--minor-colour);}
-     .footer .footer-adress:focus { color: var(--minor-colour);}
+     .footer .adress:hover {color: var(--minor-colour);}
+     .footer .adress:focus { color: var(--minor-colour);}
 
