@@ -75,7 +75,9 @@ color: var(--basic-colour);}
     letter-spacing: 0.03em;
     color: var(--contacts-coluor);}
 
-.info .contackts:hover {color: var(--minor-colour);}
+.info .contackts:hover, 
+.info .contackts:hover
+ {color: var(--minor-colour);}
 
 .headerr .link {text-decoration:none}
 .headerr .logo {text-decoration: none}
@@ -94,7 +96,9 @@ color: var(--basic-colour);}
 .about > button {
     background-color: var(--minor-colour);
     color: var(--text-wite);
-    border-radius: 4px;}
+    border-radius: 4px;
+    font-family:'Roboto',
+    sans-serif;}
     
 
 .about > button:hover {background-color: var(--button-active);}
@@ -106,6 +110,7 @@ color: var(--basic-colour);}
         line-height: 1.87;
         letter-spacing: 0.06em;}
 
+                
 .
 
  
@@ -180,7 +185,7 @@ color: var(--basic-colour);}
 
 
 .about-porfolio .btn:hover {background-color: var(--minor-colour);}
-.about-porfolio .btn:hover {color: var(--text-wite);}
+.about-porfolio .btn:focus {color: var(--text-wite);}
 .ebout-li {
     font-weight: 500;
     font-size: 16px;
@@ -219,6 +224,8 @@ color: var(--basic-colour);}
     color: var(--minor-colour);
 text-decoration: none;}
 
+.address { font-family:normal;}
+
 .footer  .llogo {color:var(--text-wite);}
 
   .footer .contackt {
@@ -227,7 +234,8 @@ text-decoration: none;}
     line-height: 2.0;
     letter-spacing: 0.03em;
     color:var(--footer-colour);
-    text-decoration: none;}
+    text-decoration: none;
+    font-style: normal;}
 
     .footer .contackt:hover {color: var(--minor-colour);}
     .footer .contackt:focus {color: var(--minor-colour);}  
